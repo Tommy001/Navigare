@@ -11,10 +11,10 @@ Clone the repository with the address given in the right hand menu.
 
 **Dependencies:** for the site to work, you need to run composer and download the Anax MVC framework, and two classes named CDatabase and CForm. Your composer.json should thus have these rows included:
 >     "require": {
->    "anax/mvc": "dev-master",
->    "mos/cdatabase": "dev-master",
->    "mos/cform": "2.*@dev"
->}
+    "anax/mvc": "dev-master",
+    "mos/cdatabase": "dev-master",
+    "mos/cform": "2.*@dev"
+    }
 
 After this download you may want to make one change in CForm, which is a PHP class for creating, rendering and validating HTML forms, in order to style the form for adding or editing tags for a question. Simply replace the code on row 278 (begins with '$ret .= ...') in the file *vendor/mos/cform/HTMLForm/CFormElement.php* with the code found in the file *formstyle.php* on the root level of the installation folder for this Q&A forum.
 
@@ -26,6 +26,6 @@ The mysql database tables needed is supplied in a single file named *Navigare/se
 
 It is also possible to intialize the database tables by adding "/setup" to the start page URL in the address field of you web browswer. This will drop and add these same tables with content to the database.
 
-A sample installation of the site is available [here](http://www.student.bth.se/~toja14/phpmvc/kmom07/projekt/webroot/). 
+A sample installation of the site is available [here](http://www.student.bth.se/~toja14/phpmvc/kmom07/projekt/webroot). 
 
 
