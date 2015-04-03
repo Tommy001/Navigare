@@ -1,0 +1,25 @@
+{
+    "name": "Tommy001/Navigare",
+    "type": "library",
+    "description": "Q&A forum for the Anax-MVC framework",
+    "keywords": ["forum", "Anax-MVC"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tommy Johansson",
+            "email": "tommy@franskaord.se",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": { "projekt\\": "src/" }
+    },
+    "require": {
+    "anax/mvc": "dev-master",
+    "mos/cdatabase": "dev-master",
+    "mos/cform": "2.*@dev"
+}
+}

@@ -1,0 +1,130 @@
+#questions li.questions a, #tags li.tags a, #users li.users a, #about li.about a, #index li.index a {  
+   font-size: 1.4em !important;
+   color:#FFF !important;
+   border-bottom: solid #FFF;
+}
+
+
+.navbar {
+    background-color: #2E3E6F;
+    border-color: #030033;
+}
+#footer > .footer {
+    background-color: #2E3E6F;
+    border-color: solid 2px #030033;
+}
+
+
+.navbar .nav > li > a:hover,
+.navbar .nav > li > a:focus {
+    text-decoration: none;
+    color:#FFF !important;
+    background-color: #2A4D8F; /*Change rollover cell color here*/
+}
+
+.navbar .nav > li > a:link,
+.navbar .nav > li > a:visited {
+   font-size: 1.4em !important;
+   color:#9ADCFF !important; /*Change link color here*/
+}
+
+.top-padding { 
+    padding-top:0px !important; 
+}
+
+.bottom-buffer { 
+    margin-bottom:20px; 
+}
+
+.top-buffer { 
+    margin-top:20px; 
+}
+
+.userborder {
+    border:dashed #222;
+    border-width:1px 1px 1px 0px;   
+}
+
+.right-to-left li { 
+    float: right; 
+}
+
+.title-color{
+    color:#FFF;
+}
+
+.accepted {
+    font-size: 30px;
+    color:green;
+}
+.notaccepted {
+    font-size: 30px;
+    color:silver;
+}
+
+.vote {
+    font-size: 20px;
+    color:222;
+    display:inline-block;
+}
+
+.accepted button, .notaccepted button, .vote button {
+
+    background: transparent;
+    border: none !important;
+}​
+
+.fot > a:link,
+a:hover,
+a:visited,
+a:active {
+    text-decoration:none;
+    color:#337AB7 !important;
+}
+
+.navbar-btn {
+    margin-right:10px !important;
+    display:inline !important;
+}
+
+/* style all elements with a required attribute */
+input:required + label {
+  box-shadow: 4px 4px 20px rgba(200, 0, 0, 0.85);
+}
+
+.inline{
+    display:inline-block;
+}
+
+.buttonbar{
+    float:left;
+    clear:both;
+    padding-top:20px;
+}
+.buttonpadding{
+    margin:2px;
+}
+
+body {
+    background-image: url('../img/bakgrund.jpg');
+    background-size:cover;
+
+}
+
+.panel-transparent {
+    background: rgba(255, 255, 255, 0.5)!important;;
+}
+
+.panel-transparent .panel-heading{
+    background: rgba(245, 245, 245, 0.9)!important;
+}
+
+.panel-transparent .panel-body{
+    background: rgba(255, 255, 255, 0.9)!important;
+}
+
+
+.panel-transparent .jumbotron{
+    background: rgba(245, 245, 245, 0.7)!important;
+}
+

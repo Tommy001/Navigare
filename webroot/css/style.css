@@ -1,0 +1,115 @@
+/**
+ * General elements
+ */
+
+/* @import url(figure.css); */
+
+body {
+  width:934px;
+  font-size:90%;
+  background:#d2ffff;  
+  color: #333;
+  font-family: arial, sans-serif;
+  overflow-y: scroll;
+  margin:0 auto;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+  margin: 0 auto;
+  width: 980px; 
+  padding: 10px;
+}
+
+
+/**
+ * Layout for header
+ */
+#header {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+#header a {
+    text-decoration:none;
+    color: #333;
+}
+
+.sitetitle {
+  position: absolute;
+  top: 6px;
+  left: 130px;
+  font-size: 48px;
+}
+
+.siteslogan {
+  position: absolute;
+  top: 65px;
+  left: 130px;
+  font-style: italic;
+  color: #666;
+}
+
+.logo {
+  border:4px double;
+  border-color: #666;
+}
+
+/**
+ * Layout for main
+ */
+#main {
+  min-height: 20em;
+}
+
+
+/**
+ * Layout for footer
+ */
+#footer {
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  padding-top: 22px;
+}
+
+.sitefooter {
+  color: #666;
+}
+
+
+/**
+ * For articles
+ */
+.article1 {
+  width: 700px;
+  border-right: 1px solid #ccc;
+  padding-right: 1em;
+}
+
+.article1 h1,
+.article1 h2 {
+  border-bottom: 1px solid #ccc;
+}
+
+.byline {
+    padding:20px;
+  background:#9AD2FF;
+  border-radius: 4px;  
+  margin-top: 44px;
+/*  border-top: 1px dashed #ccc; */
+  padding-top: 22px;
+  color: #666;
+  font-style:italic;
+}
+
+.byline p {
+  margin-top: 0;
+
+}

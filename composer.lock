@@ -1,0 +1,158 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "44e03741c5b61ecec00a55582cde616d",
+    "packages": [
+        {
+            "name": "anax/mvc",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mosbth/Anax-MVC.git",
+                "reference": "f7050f99da31d022980009d9acd41b3a64a7ba2b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mosbth/Anax-MVC/zipball/f7050f99da31d022980009d9acd41b3a64a7ba2b",
+                "reference": "f7050f99da31d022980009d9acd41b3a64a7ba2b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Anax\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikael Roos",
+                    "email": "me@mikaelroos.se",
+                    "homepage": "http://mikaelroos.se",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Webtemplate to create websites",
+            "homepage": "http://dbwebb.se",
+            "keywords": [
+                "boilerplate",
+                "education",
+                "framework",
+                "micro",
+                "mvc"
+            ],
+            "time": "2015-03-03 21:36:30"
+        },
+        {
+            "name": "mos/cdatabase",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mosbth/cdatabase.git",
+                "reference": "91406bffa178184b8b490432c3d8b582d1834115"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mosbth/cdatabase/zipball/91406bffa178184b8b490432c3d8b582d1834115",
+                "reference": "91406bffa178184b8b490432c3d8b582d1834115",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mos\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikael Roos",
+                    "email": "me@mikaelroos.se",
+                    "homepage": "http://mikaelroos.se",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP classes for database handling upon PDO",
+            "homepage": "http://dbwebb.se",
+            "keywords": [
+                "education",
+                "framework",
+                "micro",
+                "module",
+                "mvc"
+            ],
+            "time": "2015-01-21 10:13:22"
+        },
+        {
+            "name": "mos/cform",
+            "version": "2.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mosbth/cform.git",
+                "reference": "5a899ed1c8fe97ffafc2fcd84db0c161c74faf6b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mosbth/cform/zipball/5a899ed1c8fe97ffafc2fcd84db0c161c74faf6b",
+                "reference": "5a899ed1c8fe97ffafc2fcd84db0c161c74faf6b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mos\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikael Roos",
+                    "email": "me@mikaelroos.se",
+                    "homepage": "http://mikaelroos.se",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Classes for HTML Forms",
+            "homepage": "http://dbwebb.se/",
+            "keywords": [
+                "Forms",
+                "education",
+                "html"
+            ],
+            "time": "2015-01-21 10:14:56"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "anax/mvc": 20,
+        "mos/cdatabase": 20,
+        "mos/cform": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

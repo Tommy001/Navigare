@@ -1,0 +1,2 @@
+[FIGURE src="http://www.student.bth.se/~toja14/phpmvc/Anax-MVC/webroot/img/me/Tommy_nyklippt.jpg" class="right rounded" alt="Bild på mig" nolink="nolink"]
+Tommy är språkkonsult med fordonsindustrin som största uppdragsgivare. Sedan 1991 har han jobbat i egen regi och har genom åren tagit emot uppdrag från många olika kunder. De sista åren har dock konsultandet blivit mer specialiserat och framåt är siktet inställt på en kombination av webbutveckling och språktjänster.

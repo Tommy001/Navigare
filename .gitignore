@@ -1,0 +1,8 @@
+# Ignore code coverage report
+/report/*
+# Ignore vendor folder
+/vendor/*
+# Ignore test folder
+/test/*
+# Ignore view folder
+/view/*
