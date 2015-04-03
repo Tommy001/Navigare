@@ -1,4 +1,6 @@
 # Navigare Necesse Est
+[![Build Status](https://scrutinizer-ci.com/g/Tommy001/Navigare/badges/build.png?b=master)](https://scrutinizer-ci.com/g/Tommy001/Navigare/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Tommy001/Navigare/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Tommy001/Navigare/?branch=master)
 
 Navigare Necesse Est is a Q&A forum for boating enthusiasts. The language used is Swedish. 
 
