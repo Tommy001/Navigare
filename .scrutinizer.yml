@@ -1,7 +1,11 @@
-paths:
+---
+filter:
+  paths:
   - app/*
+
 imports:
   - php
+    
 
 checks:
     php:
