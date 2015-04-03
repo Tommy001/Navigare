@@ -1,0 +1,6 @@
+---
+filter:
+paths:
+- app/*
+imports:
+- php
