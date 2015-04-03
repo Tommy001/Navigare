@@ -26,6 +26,6 @@ The mysql database tables needed is supplied in a single file named *Navigare/se
 
 It is also possible to intialize the database tables by adding "/setup" to the start page URL in the address field of you web browswer. This will drop and add these same tables with content to the database.
 
-A sample installation of the site is available [here](http://www.student.bth.se/~toja14/phpmvc/kmom07/projekt/webroot/). 
+A sample installation of the site is available [here](http://www.student.bth.se/~toja14/phpmvc/kmom07/projekt/webroot/index.php). 
 
 
