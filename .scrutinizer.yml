@@ -1,5 +1,7 @@
+paths:
+  - app/*
 imports:
-- php
+  - php
 
 checks:
     php:
