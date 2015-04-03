@@ -14,7 +14,7 @@ Clone the repository with the address given in the right hand menu.
     "anax/mvc": "dev-master",
     "mos/cdatabase": "dev-master",
     "mos/cform": "2.*@dev"
-}
+    }
 
 After this download you may want to make one change in CForm, which is a PHP class for creating, rendering and validating HTML forms, in order to style the form for adding or editing tags for a question. Simply replace the code on row 278 (begins with '$ret .= ...') in the file *vendor/mos/cform/HTMLForm/CFormElement.php* with the code found in the file *formstyle.php* on the root level of the installation folder for this Q&A forum.
 
